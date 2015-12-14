@@ -1,0 +1,53 @@
+#nanba
+
+production:
+    adapter: mysql2
+    database: rails4_anglar
+    server: 192.168.4.74
+    host: 192.168.4.74
+    port: 3306
+    username: root
+    password: root
+    encoding: utf8
+#nanba
+#nanba_sync
+development:
+  adapter: mysql2
+  database: rails4_anglar
+  server: 192.168.4.74
+  host: 192.168.4.74
+  port: 3306
+  username: root
+  password: root
+  encoding: utf8
+#development:
+#  adapter: mysql2
+#  database: redmine
+#  server: vm1033
+#  host: vm1033
+#  port: 3306
+#  username: root
+#  password: Password@ofs
+#  encoding: utf8
+
+
+#
+#development:
+#  adapter: mysql2
+#  database: redmine
+#  server: vm1033
+#  host: vm1033
+#  port: 3306
+#  username: root
+#  password: Password@ofs
+#  encoding: utf8
+
+
+test:
+  adapter: mysql2
+  database: rails4_anglar
+  host: localhost
+  username: root
+  password: root
+  encoding: utf8
+
